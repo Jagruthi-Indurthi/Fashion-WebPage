@@ -1,0 +1,135 @@
+:root{
+    --pink:#EF5A6F;
+    --cream:#FFF1DB;
+    --grey:#D4BDAC;
+    --blue:#819ade;
+    --purple:#a689e3;
+    --green:#6f9f83;
+    --gold:#b4a45cc0;
+    --sky:#rgb(119, 180, 204);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Qwitcher Grypen", cursive;
+}
+/* Navbar */
+nav{
+    display: flex;
+    height: 10vh;
+    background-color: var(--blue);
+    align-items: center;
+    justify-content: space-evenly;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    color: var(--cream);
+    font-size: 3rem;
+}
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+nav .elements{
+    width: 50%;
+}
+nav .logo img{
+    height: 65px;
+    margin-top: 8px;
+    border-radius: 50%;
+    border: 2px solid purple;
+    cursor: pointer;
+}
+nav ul li a:hover{
+    color: black;
+    font-size: 3rem;
+}
+
+/* hero section */
+.hero{
+    height: 80vh;
+    margin: 20px;
+    box-sizing: border-box;
+    display: flex;
+    gap: 13px;
+}
+.hero .left{
+    width: 50%;
+    height: 100%;
+    /* margin: 12px; */
+    box-sizing: border-box;
+    padding: 20px;
+}
+.hero .right{
+    width: 50%;
+    height: 100%;
+}
+.hero .left h1{
+    font-size: 6rem;
+    text-align: center;
+    color: var(--gold)
+}
+.hero .left p{
+    font-size: 3.5rem;
+    text-align: justify;
+    filter: blur(2px 3px 9px pink);
+    color: var(--pink)
+}
+.hero .right img{
+    height: 100%;
+    margin-left: 40px;
+    /* box-shadow: 2px 3px 8px blue; */
+    filter: drop-shadow(2px 3px 9px rgb(131, 186, 131));
+}
+/* about us */
+
+/* Cards */
+.cards{
+    display: flex;
+    height: 70vh;
+    /* background-color: #EF5A6F; */
+    padding: 20px;
+    justify-content: space-evenly;
+}
+.card{
+    width: 30%;
+    height: 100%;
+    background-color:rgb(177, 227, 247) ;
+    filter:drop-shadow(2px 3px 8px rgb(101, 101, 222)) ;
+    border-radius: 10px;
+}
+.card h1{
+ text-align: center;
+ color: var(--gold);
+ font-size: 3rem;
+}
+
+.card img{
+    margin: 5px;
+    padding: 32px;
+    height: 200px;
+    width: 200px;
+}
+/*.card p{
+    text-align: justify;
+    font-size: 2.4rem;
+    color: rgba(222, 63, 174, 0.597);
+}*/
+.card h3{
+    margin: 5px;
+    font-size: 2rem;
+    display: flex;
+    margin: 5px;
+    color: rgba(222, 63, 174, 0.597);
+}
+.card h2{
+    margin: 5px;
+    font-size: 3rem;
+    display: flex;
+    margin: 5px;
+    color: rgba(222, 63, 174, 0.597);
+}
